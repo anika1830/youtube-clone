@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Clone</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+  <header class="bg-white shadow-md fixed w-full z-10">
+    <div class="container mx-auto px-4 py-2 flex items-center justify-between">
+      <div class="flex items-center space-x-4">
+        <img src="youtube-logo-0.png" alt="YouTube Logo" class="h-8">
+      </div>
+      <div class="flex items-center space-x-4">
+        <input type="text" placeholder="Search" class="border rounded-full px-4 py-2 w-64">
+        <button class="bg-gray-200 p-2 rounded-full">
+          <img src="1273014462.png" alt="Search" class="h-5 w-5">
+        </button>
+      </div>
+      <div class="flex items-center space-x-4">
+        <button class="bg-gray-200 p-2 rounded-full">
+          <img src="698394-icon-130-cloud-upload-1024.webp" alt="Upload" class="h-6 w-6">
+        </button>
+        <button class="bg-gray-200 p-2 rounded-full">
+          <img src="369-3699390_notification-clipart.png" alt="Notifications" class="h-6 w-6">
+        </button>
+        <img src="Avtar.jpg" alt="User Avatar" class="h-8 w-8 rounded-full">
+      </div>
+    </div>
+  </header>
+  <div class="flex mt-16">
+    <aside class="w-64 bg-white h-screen shadow-md p-4 space-y-4 fixed">
+      <div class="space-y-2">
+        <button class="flex items-center space-x-4 hover:bg-gray-200 p-2 rounded">
+          <img src="17-178841_home-png-home-icon-free.png" alt="Home" class="h-6 w-6">
+          <span>Home</span>
+        </button>
+        <button class="flex items-center space-x-4 hover:bg-gray-200 p-2 rounded">
+          <img src="image_processing20210616-28547-1pw1efu.png" alt="Trending" class="h-6 w-6">
+          <span>Trending</span>
+        </button>
+        <button class="flex items-center space-x-4 hover:bg-gray-200 p-2 rounded">
+          <img src="subscribe_PNG52.png" alt="Subscriptions" class="h-6 w-6">
+          <span>Subscriptions</span>
+        </button>
+      </div>
+      <hr>
+      <div class="space-y-2">
+        <button class="flex items-center space-x-4 hover:bg-gray-200 p-2 rounded">
+          <img src="1-18-1024.webp" alt="Library" class="h-6 w-6">
+          <span>Library</span>
+        </button>
+        <button class="flex items-center space-x-4 hover:bg-gray-200 p-2 rounded">
+          <img src="black-history-icon--2.png" alt="History" class="h-6 w-6">
+          <span>History</span>
+        </button>
+      </div>
+    </aside>
+    <main class="flex-1 bg-gray-100 p-4 ml-64">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div class="bg-white shadow-md rounded-lg overflow-hidden">
+          <img src="artworks-Lvfh0dfwTlIHBN1R-CkkI1A-t500x500 (1).gif" alt="Video Thumbnail" class="w-full h-32 object-cover">
+          <div class="p-4">
+            <h3 class="font-bold text-sm">Video Title</h3>
+            <p class="text-gray-600 text-xs">Channel Name • 1M views • 1 week ago</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+</body>
+</html>
